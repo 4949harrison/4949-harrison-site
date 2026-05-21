@@ -6,7 +6,11 @@
 <title>4949 Harrison</title>
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
 body{
 font-family:Arial,sans-serif;
@@ -27,7 +31,10 @@ top:0;
 z-index:100;
 }
 
-header h2{font-size:32px;color:#0f172a}
+header h2{
+font-size:32px;
+color:#0f172a;
+}
 
 nav a{
 margin-left:24px;
@@ -76,9 +83,12 @@ color:white;
 text-decoration:none;
 border-radius:14px;
 font-weight:bold;
+transition:.2s;
 }
 
-.button:hover{background:#0f766e}
+.button:hover{
+background:#0f766e;
+}
 
 .hero-card{
 background:white;
@@ -88,8 +98,16 @@ border-radius:24px;
 box-shadow:0 15px 40px rgba(0,0,0,.2);
 }
 
-.hero-card h3{font-size:32px;margin-bottom:15px}
-.hero-card p{color:#334155;margin-bottom:12px;font-size:18px}
+.hero-card h3{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.hero-card p{
+color:#334155;
+margin-bottom:12px;
+font-size:18px;
+}
 
 .stats{
 max-width:1200px;
@@ -111,7 +129,11 @@ text-align:center;
 box-shadow:0 8px 20px rgba(0,0,0,.12);
 }
 
-.stat h3{font-size:34px;margin-bottom:10px;color:#5eead4}
+.stat h3{
+font-size:34px;
+margin-bottom:10px;
+color:#5eead4;
+}
 
 .section{
 max-width:1200px;
@@ -151,10 +173,27 @@ object-fit:cover;
 display:block;
 }
 
-.card-content{padding:35px}
-.card h3{font-size:34px;margin-bottom:10px;color:#082f49}
-.card .size{color:#0f766e;font-size:24px;font-weight:bold;margin-bottom:18px}
-.card p{font-size:18px;color:#475569}
+.card-content{
+padding:35px;
+}
+
+.card h3{
+font-size:34px;
+margin-bottom:10px;
+color:#082f49;
+}
+
+.card .size{
+color:#0f766e;
+font-size:24px;
+font-weight:bold;
+margin-bottom:18px;
+}
+
+.card p{
+font-size:18px;
+color:#475569;
+}
 
 .features{
 display:grid;
@@ -171,7 +210,11 @@ text-align:center;
 box-shadow:0 8px 20px rgba(0,0,0,.05);
 }
 
-.feature h4{font-size:22px;margin-bottom:10px;color:#0f766e}
+.feature h4{
+font-size:22px;
+margin-bottom:10px;
+color:#0f766e;
+}
 
 .gallery{
 display:grid;
@@ -200,8 +243,16 @@ margin:auto;
 text-align:center;
 }
 
-.contact h2{font-size:52px;margin-bottom:20px}
-.contact p{font-size:22px;margin-bottom:35px;color:#d7edf2}
+.contact h2{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.contact p{
+font-size:22px;
+margin-bottom:35px;
+color:#d7edf2;
+}
 
 footer{
 background:#02131f;
@@ -211,11 +262,30 @@ text-align:center;
 }
 
 @media(max-width:900px){
-.hero-inner,.spaces,.features,.stats,.gallery{grid-template-columns:1fr}
-.hero h1{font-size:46px}
-.section-title{font-size:38px}
-header{padding:20px}
-nav{display:none}
+
+.hero-inner,
+.spaces,
+.features,
+.stats,
+.gallery{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:46px;
+}
+
+.section-title{
+font-size:38px;
+}
+
+header{
+padding:20px;
+}
+
+nav{
+display:none;
+}
 }
 </style>
 </head>
@@ -224,6 +294,7 @@ nav{display:none}
 
 <header>
 <h2>4949 Harrison</h2>
+
 <nav>
 <a href="#space">Available Space</a>
 <a href="#features">Amenities</a>
@@ -233,89 +304,190 @@ nav{display:none}
 </header>
 
 <section class="hero">
+
 <div class="hero-inner">
+
 <div>
 <p>ROCKFORD, ILLINOIS</p>
-<h1>Modern office space at 4949 Harrison Avenue.</h1>
+
+<h1>
+Modern office space at
+4949 Harrison Avenue.
+</h1>
+
 <p>
 MeshWorks Rockford offers move-in ready office space with natural light,
 flexible layouts, excellent parking, and professional on-site amenities.
 </p>
-<a class="button" href="mailto:admin@4949harrison.com">Contact Leasing</a>
+
+<a class="button" href="mailto:admin@4949harrison.com">
+Contact Leasing
+</a>
 </div>
 
 <div class="hero-card">
 <h3>4949 Harrison Avenue</h3>
+
 <p>Rockford, IL 61108</p>
 <p>121,515 SF Office Building</p>
 <p>197 Parking Spaces</p>
 <p>Class B Office</p>
 <p>Built in 1987</p>
 </div>
+
 </div>
+
 </section>
 
 <section class="stats">
-<div class="stat"><h3>4,675–41,675 SF</h3><p>Available Space</p></div>
-<div class="stat"><h3>$19/SF/YR</h3><p>Lease Rate</p></div>
-<div class="stat"><h3>3 Stories</h3><p>Office Building</p></div>
-<div class="stat"><h3>197 Spaces</h3><p>Parking Available</p></div>
+
+<div class="stat">
+<h3>4,675–41,675 SF</h3>
+<p>Available Space</p>
+</div>
+
+<div class="stat">
+<h3>$19/SF/YR</h3>
+<p>Lease Rate</p>
+</div>
+
+<div class="stat">
+<h3>3 Stories</h3>
+<p>Office Building</p>
+</div>
+
+<div class="stat">
+<h3>197 Spaces</h3>
+<p>Parking Available</p>
+</div>
+
 </section>
 
 <section class="section" id="space">
-<h2 class="section-title">Available Space</h2>
+
+<h2 class="section-title">
+Available Space
+</h2>
+
 <p class="section-sub">
 Flexible office opportunities with move-in ready layouts and excellent amenities.
 </p>
 
 <div class="spaces">
+
 <div class="card">
+
 <img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-16-LargeHighDefinition.jpg">
+
 <div class="card-content">
 <h3>Suite 102</h3>
-<div class="size">4,675 SF</div>
-<p>Fully built-out office suite with conference rooms, open layout, heating/cooling, and atrium access.</p>
+
+<div class="size">
+4,675 SF
 </div>
+
+<p>
+Fully built-out office suite with conference rooms,
+open layout, heating/cooling, and atrium access.
+</p>
+</div>
+
 </div>
 
 <div class="card">
+
 <img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-14-LargeHighDefinition.jpg">
+
 <div class="card-content">
 <h3>3rd Floor</h3>
-<div class="size">20,000–37,000 SF</div>
-<p>Large office opportunity with flexible layouts, high ceilings, and extensive natural light.</p>
+
+<div class="size">
+20,000–37,000 SF
 </div>
+
+<p>
+Large office opportunity with flexible layouts,
+high ceilings, and extensive natural light.
+</p>
 </div>
+
+</div>
+
 </div>
 
 <div class="features" id="features">
-<div class="feature"><h4>Ample Parking</h4><p>197 parking spaces including covered options.</p></div>
-<div class="feature"><h4>Great Access</h4><p>Convenient access to I-90 and major routes.</p></div>
-<div class="feature"><h4>Natural Light</h4><p>Bright office layouts designed for productivity.</p></div>
-<div class="feature"><h4>On-Site Amenities</h4><p>Conference space, fitness amenities, and more.</p></div>
+
+<div class="feature">
+<h4>Ample Parking</h4>
+<p>197 parking spaces including covered options.</p>
 </div>
+
+<div class="feature">
+<h4>Great Access</h4>
+<p>Convenient access to I-90 and major routes.</p>
+</div>
+
+<div class="feature">
+<h4>Natural Light</h4>
+<p>Bright office layouts designed for productivity.</p>
+</div>
+
+<div class="feature">
+<h4>On-Site Amenities</h4>
+<p>Conference space, fitness amenities, and more.</p>
+</div>
+
+</div>
+
 </section>
 
 <section class="section" id="gallery">
-<h2 class="section-title">Photo Gallery</h2>
-<p class="section-sub">A look at the building, lobby, common areas, and amenities.</p>
+
+<h2 class="section-title">
+Photo Gallery
+</h2>
+
+<p class="section-sub">
+A look at the building, office suites, common areas, and amenities.
+</p>
 
 <div class="gallery">
+
 <img src="4949-Harrison-Ave-Rockford-IL-Building-Photo-5-LargeHighDefinition.jpg">
 <img src="4949-Harrison-Ave-Rockford-IL-Lobby-10-LargeHighDefinition.jpg">
 <img src="4949-Harrison-Ave-Rockford-IL-Lobby-9-LargeHighDefinition.jpg">
 <img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-11-LargeHighDefinition.jpg">
+<img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-12-LargeHighDefinition.jpg">
+<img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-13-LargeHighDefinition.jpg">
+<img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-14-LargeHighDefinition.jpg">
+<img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-15-LargeHighDefinition.jpg">
+<img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-16-LargeHighDefinition.jpg">
 <img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-17-LargeHighDefinition.jpg">
+<img src="4949-Harrison-Ave-Rockford-IL-Interior-Photo-8-LargeHighDefinition.jpg">
 <img src="4949-Harrison-Ave-Rockford-IL-Aerial-26-LargeHighDefinition.jpg">
+
 </div>
+
 </section>
 
 <section class="contact" id="contact">
+
 <div class="contact-inner">
-<h2>Interested in space at 4949 Harrison?</h2>
-<p>Contact us today to schedule a tour or learn more about availability.</p>
-<a class="button" href="mailto:admin@4949harrison.com">admin@4949harrison.com</a>
+
+<h2>
+Interested in space at 4949 Harrison?
+</h2>
+
+<p>
+Contact us today to schedule a tour or learn more about availability.
+</p>
+
+<a class="button" href="mailto:admin@4949harrison.com">
+admin@4949harrison.com
+</a>
+
 </div>
+
 </section>
 
 <footer>
